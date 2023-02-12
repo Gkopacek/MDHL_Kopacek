@@ -25,7 +25,7 @@ h1{
 
 h1:hover{
     color: black;
-    -webkit-text-fill-color: #efc82e; /* Will override color (regardless of order) */
+    -webkit-text-fill-color: #efc82e;
     -webkit-text-stroke-width: 1.5px;
     -webkit-text-stroke-color: #c05639;
     transition-duration: 3s;
@@ -64,4 +64,57 @@ a{
 
   .banner{
     width: 100%;
+  }
+
+  main{
+    text-align: center;
+  }
+  
+  .contenedor-socalo{
+    position: absolute;
+    width: 100%;
+    
+  }
+
+  .socalo{
+    text-align: center;
+    position: relative;
+    background-color: #2524256f;
+    top: -40px;
+    font-size: 2vw;
+    
+  }
+
+  img{
+    display: inline-block;
+  }
+
+  article{
+    margin: 30px 3px;
+    font-size: 1.2vw;
+  }
+
+  .article-container{
+    text-align: center;
+    display: inline-block;
+    width: 80vw;
+  }
+
+
+  .container-logo{
+    display: inline-block;
+  }
+
+  .logo{
+    width: 10vw;
+    display: inline-block;
+  }
+
+  .contact-container{
+    display: inline-block;
+    font-size: 1.2vw;
+  }
+
+  .margin{
+    margin:6px;
   }
