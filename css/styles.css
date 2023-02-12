@@ -4,4 +4,64 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family:monospace;
+    font-weight:lighter;
 }
+
+header{
+    background-color: #c8cacb;
+    transition: all;
+}
+header:hover{
+    background-color: #379a8faf;
+    transition-duration: 3s;
+}
+
+h1{
+    display: inline-block;
+    font-size: 4.2vw;
+    
+}
+
+h1:hover{
+    color: black;
+    -webkit-text-fill-color: #efc82e; /* Will override color (regardless of order) */
+    -webkit-text-stroke-width: 1.5px;
+    -webkit-text-stroke-color: #c05639;
+    transition-duration: 3s;
+    scale: 1.01;
+}
+
+nav{
+    /* width: 30%; */
+    display: inline-block;
+    text-align: center;
+    font-size: 2.3vw;
+    position:relative;
+    top: 0.85em;
+    /* background-color: #c2c0cd; */
+   /*  margin: 0 auto; */
+
+}
+
+a{
+    text-decoration: none;
+    background-color: #5fa199b8;
+    padding: 0.5vw 1vw;
+    border-radius: 6%;
+  }
+
+  a:hover{
+    transition-duration: 1.2s;
+    background-color: #f8e12ead;
+    border:solid 1.5px #252425;
+  }
+
+  a:active{
+    background-color: #f8e12e;
+    color: #31a359;
+  }
+
+  .banner{
+    width: 100%;
+  }
