@@ -45,6 +45,7 @@ nav{
 }
 
 a{
+    color:#1f2643;
     text-decoration: none;
     background-color: #5fa199b8;
     padding: 0.5vw 1vw;
@@ -52,7 +53,7 @@ a{
   }
 
   a:hover{
-    transition-duration: 1.2s;
+    transition-duration: 0.2s;
     background-color: #f8e12ead;
     border:solid 1.5px #252425;
   }
@@ -77,8 +78,10 @@ a{
   }
 
   .socalo{
+    
     text-align: center;
     position: relative;
+    color:#1f2643;
     background-color: #2524256f;
     top: -40px;
     font-size: 2vw;
