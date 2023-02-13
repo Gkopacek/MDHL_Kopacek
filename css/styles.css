@@ -44,7 +44,7 @@ nav{
 
 }
 
-a{
+.button{
     color:#1f2643;
     text-decoration: none;
     background-color: #5fa199b8;
@@ -52,13 +52,13 @@ a{
     border-radius: 6%;
   }
 
-  a:hover{
+  .button:hover{
     transition-duration: 0.2s;
     background-color: #f8e12ead;
     border:solid 1.5px #252425;
   }
 
-  a:active{
+  .button:active{
     background-color: #f8e12e;
     color: #31a359;
   }
@@ -92,6 +92,13 @@ a{
     display: inline-block;
   }
 
+  .gallery:hover{
+    border:solid 3px #252425;
+    transition-duration: 3s;
+    scale: 2;
+
+  }
+
   article{
     margin: 30px 3px;
     font-size: 1.2vw;
@@ -100,7 +107,7 @@ a{
   .article-container{
     text-align: center;
     display: inline-block;
-    width: 80vw;
+    width: 60vw;
   }
 
 
