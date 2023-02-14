@@ -4,9 +4,19 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+/* Estructura CSS Task2*/
+/* 
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
     font-family:monospace;
     font-weight:lighter;
 }
+
 
 header{
     background-color: #c8cacb;
@@ -33,14 +43,11 @@ h1:hover{
 }
 
 nav{
-    /* width: 30%; */
     display: inline-block;
     text-align: center;
     font-size: 2.3vw;
     position:relative;
     top: 0.85em;
-    /* background-color: #c2c0cd; */
-   /*  margin: 0 auto; */
 
 }
 
@@ -127,4 +134,4 @@ nav{
 
   .margin{
     margin:6px;
-  }
+  } */
