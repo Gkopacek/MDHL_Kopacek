@@ -10,28 +10,35 @@
 </head>
 <body>
     <header>
-        <figure class="container-logo"><img class="logo"  src="assets/logo para fondo.png" alt="Logo of Mighty Ducks Hockey League"></figure>
+        <figure class="container-logo"><img class="logo"  src="assets/logo_para_fondo.png" alt="Logo of Mighty Ducks Hockey League"></figure>
         <h1>Mighty Ducks Hockey League</h1>
     </header>
         <nav>
             <a class="button" href="./index.html">Home</a>
             <a class="button" href="./about.html">Abbout MDHL</a>
             <a class="button" href="./contact.html">Contact</a>
-            <a class="button button-active" href="./game_info.html">Game Info</a>
+            <a class="button button-active" href="#">Game Info</a>
             <a class="button" href="./rules.html">Rules</a>
         </nav>
-    <main>
+    <main class="main-game_info" >
         <div class="fotos">
             <figure class="container-logo gallery"><a href="assets/hockey_1.jpg" target="_blank"><img class="logo" src="assets/hockey_1.jpg" alt="Playing Hockey"></a></figure>
             <figure class="container-logo gallery"><a href="assets/hockey_2.jpg" target="_blank"><img class="logo" src="assets/hockey_2.jpg" alt="Playing Hockey"></a></figure>
             <figure class="container-logo gallery"><a href="assets/hockey_3.jpg" target="_blank"><img class="logo" src="assets/hockey_3.jpg" alt="Playing Hockey"></a></figure>
         </div>
-
-        <h2 style="display:flex; flex-direction: column;">Game Info</h2>
+<section class="main-home" style="display: flex; flex-direction: column; gap: 104px;">
+ 
+    <div style="
+        display: flex;
+        flex-direction: column;
+        align-items: center;">
+        
+        <div class="table-titulo">
+         <img src="./assets/Logo_Mighty_ducks-01.png" style="width: 94px;" alt="logo mighty ducks">
+         <h2 class="logo-text-h2">Game Info</h2>
+        </div> 
 
         <table>
-            <caption>Facility Type: Outdoor</caption>
-
             <thead>
                 <tr>
                     <th>SEPTEMBER</th>
@@ -93,7 +100,23 @@
                 </tr>
             </tbody>
         </table>
-
+    </div>
+    
+    
+    <div style="display: flex; flex-direction: column; gap: 50px;">
+        <div>
+        <p>Facility Type: Outdoor</p>
+        <p>Aditional Information: if deemed necessary by MDHL games may be shortened or cancelled due to extreme weather conditions</p>
+    </div>
+    <div>
+        <p>please direct all questions to: Michael Randall, League Coordinator</p>
+        <div>
+            <a href="tel:630 690-8132">Phone:630 690-8132</a>
+            <a href="mailto: michael.randall@chihockey.org">michael.randall@chihockey.org</a>
+        </div>
+    </div>
+</div>
+</section>
     </main>
 </body>
 </html>
