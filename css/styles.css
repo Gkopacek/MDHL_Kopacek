@@ -103,6 +103,7 @@ h2{
   font-size: larger;
   justify-content: center;
   align-items: stretch;
+  gap: 8px;
 }
 .main-rules {
   background-color: #000000e6;
@@ -303,6 +304,11 @@ caption {
   list-style-position: inside;
 }
 
+.maps{
+  width: 300px;;
+  height:300px;
+  border:0;
+}
 
 /* Estructura CSS Task2*/
 /* 
