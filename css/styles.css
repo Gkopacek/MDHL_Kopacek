@@ -68,7 +68,7 @@ h2{
   justify-content: space-evenly;
   align-items: center;
 }
-.main-home{
+/* .main-home{
   background-color: #000000e6;
   display: flex;
   min-height: 80vh;
@@ -78,6 +78,19 @@ h2{
   font-size: larger;
   justify-content: space-evenly;
   align-items: center;
+} */
+
+.main-home {
+  background-color: #000000e6;
+  display: flex;
+  min-height: 80vh;
+  margin-top: 20px;
+  color: aliceblue;
+  font-size: larger;
+  font-size: larger;
+  justify-content: space-evenly;
+  align-items: center;
+  /* padding-bottom: 110px; */
 }
 
 .main-game_info {
@@ -127,7 +140,7 @@ h2{
   height: 410px;
   justify-content: flex-start;
   align-items: center;
-  gap: 117px;
+  gap: 40px;
 }
 
 /* main{
@@ -223,7 +236,7 @@ nav {
   border-radius: 20px;
   display: flex;
   flex-direction: column;
-  gap: 37px;
+  gap: 15px;
 }
 
 article > h3{
