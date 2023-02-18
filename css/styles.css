@@ -310,6 +310,16 @@ caption {
   border:0;
 }
 
+form{
+  border: 2px solid white;
+  border-radius: 1rem;
+  padding: 1rem;
+}
+
+label{
+  margin-right: 5px;
+}
+
 /* Estructura CSS Task2*/
 /* 
 
